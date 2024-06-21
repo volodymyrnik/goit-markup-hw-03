@@ -77,21 +77,26 @@ img {
          display: flex;
          gap: 40px;
 }
-.nav {
-    display: flex;
-    align-items: center;
-}
-
-.nav .site .link {font-weight: 500;
+.site .link {font-weight: 500;
         color:#2e2f42; 
         line-height: 1.5;   
         letter-spacing: 0.02em;
         text-transform: uppercase; 
         text-decoration: none;
-        display: flex;
-        align-items: center;
         margin-right: 40px;
     }
+
+.nav {font-weight: 500;
+    color:#2e2f42; 
+    line-height: 1.5;   
+    letter-spacing: 0.02em;
+    text-transform: uppercase; 
+    text-decoration: none;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+
+}
 
 .work {text-decoration: none;}
 
@@ -101,6 +106,8 @@ img {
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 } 
 .mail .address:hover  {color:#404bbf;}    
 .mail .address:focus  {color:#404bbf;}    
