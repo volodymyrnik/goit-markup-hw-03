@@ -196,9 +196,12 @@ img {
 .team-ul-li {background-color: #FFFFFF;
             display: flex;
             gap: 24px;}
-
+.team-ul {
+    display: flex;
+    gap: 24px;
+}
 .team-ul-first {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -230,7 +233,7 @@ img {
                     text-transform: capitalize;
                     text-align: center;
                     color: #2e2f42;
-                    margin-bottom: 72px;}
+                    margin-bottom: 8px;}
 .portfolio-style {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
