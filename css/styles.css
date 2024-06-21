@@ -156,7 +156,17 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2e2f42;}
+    color:#2e2f42;
+    margin-bottom: 8px;}
+
+.description-ul {
+    display: flex  ;
+    gap: 24px;
+}
+
+.description-li {
+    flex-basis: calc((100% - 72px) / 4);
+}
 
 .description-text {color:#434455;
                     line-height: 1.5;
@@ -173,36 +183,54 @@ img {
 
 /* our team */
 
-.team {background:#F4F4FD;}
+.team {background:#F4F4FD;
+    padding: 120px 0 120px 0;}
 .team-header {font-weight: 600;
     font-size: 36px;
     line-height: 1.11;    
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42 ;}
-.team-ul-li {background-color: #FFFFFF}
+    color: #2e2f42 ;
+    margin-bottom: 72px;}
+.team-ul-li {background-color: #FFFFFF;
+            display: flex;
+            gap: 24px;}
+
+.team-ul-first {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-header-name {font-weight: 500;
     font-size: 20px; 
     line-height: 1.2; 
     letter-spacing: 0.02em;  
-    color:#2e2f42;}  
+    color:#2e2f42;
+    text-align: center;
+    margin-bottom: 8px;}  
     
 .team-text-name {color:#434455;
                 line-height: 1.5;
-                 letter-spacing: 0.02em;}    
+                 letter-spacing: 0.02em;
+                text-align: center;}   
+
+.container-name {
+    padding: 32px 0 32px 0;
+}
 
 /* portfolio */
 
 .portfolio {background:var(--other-background-color);
-    padding: 96px 0 120px;}
+    padding: 120px 0 120px 0;}
 .portfolio-header {font-weight: 500;
                     font-size: 36px;
                     line-height: 1.11;    
                     letter-spacing: 0.02em;
                     text-transform: capitalize;
                     text-align: center;
-                    color: #2e2f42;}
+                    color: #2e2f42;
+                    margin-bottom: 72px;}
 .portfolio-style {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -213,6 +241,23 @@ img {
                     letter-spacing: 0.02em;
                     color: #2e2f42}
 
+.ul-images {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-li {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 /* footer */
 
