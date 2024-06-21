@@ -44,7 +44,7 @@ img {
 /* header */
 
 .header-main {
-    display: flex
+    display: flex;
     border-bottom: 1px solid #e7e9fc;
   }
 
@@ -77,6 +77,11 @@ img {
          display: flex;
          gap: 40px;
 }
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .nav .site .link {font-weight: 500;
         color:#2e2f42; 
         line-height: 1.5;   
