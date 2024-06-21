@@ -96,6 +96,8 @@ img {
     text-decoration: none;
     padding: 24px 0 24px 0;
     margin-right: 40px;
+    display: flex;
+    align-items: center;
 }
 .nav {font-weight: 500;
     color:#2e2f42; 
@@ -266,6 +268,7 @@ img {
                     text-align: center;
                     color: #2e2f42;
                     margin-bottom: 72px;}
+
 .portfolio-style {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
