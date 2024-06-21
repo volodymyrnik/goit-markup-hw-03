@@ -44,12 +44,15 @@ img {
 /* header */
 
 .header-main {
-    border-bottom: 1px solid var(--color-cornflower);
-    display: flex;
+    display: flex
+    border-bottom: 1px solid #e7e9fc;
   }
 
 .header-container {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
   align-items: center;
 }
 .web {
@@ -67,14 +70,22 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;}
-.address {font-style: normal;}
+    text-decoration: none;
+    margin-right: 76px}
+.address {font-style: normal;
+         display: flex;
+         gap: 40px;
+}
 .nav .site .link {font-weight: 500;
         color:#2e2f42; 
         line-height: 1.5;   
         letter-spacing: 0.02em;
         text-transform: uppercase; 
-        text-decoration: none;}
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
 
 .work {text-decoration: none;}
 
