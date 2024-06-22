@@ -72,7 +72,9 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px}
+    margin-right: 76px;
+    margin-bottom: 0;}
+
 .address {font-style: normal;
          display: flex;
          gap: 40px;
