@@ -61,7 +61,8 @@ img {
     text-transform: uppercase;    
     color:#2e2f42;
     display: inline-block;
-    margin-right: 76px;}
+    margin-right: 76px;
+    margin-bottom: 0;}
 .logo { 
     font-family:'Raleway', sans-serif;
     font-style: normal;
@@ -320,8 +321,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;}
+    display: inline-block;}
 
 
 /* hiden title */
