@@ -63,17 +63,18 @@ img {
     display: inline-block;
     margin-right: 76px;
     margin-bottom: 0;}
+    
 .logo { 
     font-family:'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+   line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px;}
+    display: inline-block;}
 
 .address {font-style: normal;
          display: flex;
@@ -309,18 +310,6 @@ img {
 .footer.text {color: #F4F4FD;
     line-height: 1.5;
               letter-spacing: 0.02em;}
-
-.logo { 
-    font-family:'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-   line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-    display: inline-block;}
 
 
 /* hiden title */
